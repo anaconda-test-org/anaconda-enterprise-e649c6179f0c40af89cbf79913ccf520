@@ -13,7 +13,7 @@ class HelloHandler(BaseHTTPRequestHandler):
         self.send_response(HTTPStatus.OK)
         self.send_header('Content-type', 'text/html')
         self.end_headers()
-        self.wfile.write(b'Hello Anaconda Enterprise!')
+        self.wfile.write(b'HAY HAY Anaconda Enterprise!')
         return
 
 
